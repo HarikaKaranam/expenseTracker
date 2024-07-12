@@ -12,7 +12,7 @@ public class DbConnect {
     public static Statement sta;
      static {
          try{
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/expensedb"+"?useSSL=false","root","Groot@123");
+            Connection conn = DriverManager.getConnection("mysql://root:voohaYzyjciOZtYsNjlgoSJULhDQypoY@monorail.proxy.rlwy.net:18897/railway");
             sta = conn.createStatement();
             
          }
